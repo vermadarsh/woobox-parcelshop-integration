@@ -1,0 +1,9 @@
+#woopi-pickup-locations{max-height: 200px; overflow-y: auto;}
+
+.woopi-pickup-location{border-bottom: 1px solid #B2B2B2;}
+
+.woopi-pickup-location .first label{cursor: pointer;}
+
+.woopi-pickup-ajax-loader{display: none;position: absolute;left: 0;right: 0;top: 0;bottom: 0;background-color: rgba(255, 255, 255, .8);cursor: wait;z-index: 9999;}
+
+.woopi-pickup-ajax-loader > img{position: absolute;left: 50%;margin-left: -20px;top: 50%;margin-top: -20px;}
